@@ -1,0 +1,14 @@
+процедура MathTest;
+переменные r, pi, area, length, temp: вещественные;
+i: целые;
+ввод (r);
+pi := 3.14159;
+
+length := 2 * pi * r;
+
+area := pi * (r * r);
+
+temp := -length + 10.5;
+
+передача (length, area, temp)
+конец.
